@@ -20,7 +20,7 @@ const RefForm = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input ref={textRef} type="text" name="text" id="text-field" />
+        <input defaultValue={"name"} ref={textRef} type="text" name="text" id="text-field" />
         <input type="email" name="email" id="mail" ref={emailRef} />
         <input type="password" name="pass" id="pass" ref={passRef} />
         <br></br>
